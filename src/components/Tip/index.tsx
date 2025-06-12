@@ -12,7 +12,7 @@ export function Tip({ tip }:Props){
             <img src={iconTip} alt="Icon de dica" />
 
             <div>
-                <strong>Dica</strong>
+                <h3>Dica</h3>
                 <p>{ tip }</p>
             </div>
         </div>
