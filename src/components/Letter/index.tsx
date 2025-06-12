@@ -1,7 +1,7 @@
 import styles from "./style.module.css"
 
 type Props = {
-    value: string,
+    value: string | undefined,
     size?: "default" | "small",
     color?: "default" | "correct" | "wrong"
 }
